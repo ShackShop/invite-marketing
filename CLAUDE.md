@@ -33,6 +33,8 @@ Horarios (hora de Ciudad de México): mañana ≈ 7:45, tarde ≈ 13:45, noche �
 4. Comprueba que el archivo existe en el repo. Publica en Instagram y en Facebook con la URL pública de GitHub Pages.
 5. Marca `status: publicado`, guarda `ig_id`, `fb_id`, `published_at`; si una falla, `status: error` y `note` con el motivo. Commit y push a `main`.
 6. Si no hay post para hoy: elige un reel de `reels/` que no se haya publicado en los últimos 21 días, escribe un texto nuevo con `facts.md`, publícalo y regístralo.
+   - **Slot "tarde" = Reel de prueba en Instagram:** agrega `trial_params: { graduation_strategy: "SS_PERFORMANCE" }` a `create_video_post`. Instagram lo muestra solo a quien no sigue la cuenta y, si funciona, lo comparte con los seguidores solo. En Facebook se publica normal.
+   - **Slot "mañana" = también historia:** después de publicar, crea una historia en Instagram con el mismo video (`create_story` con `video_url`; las historias no llevan texto). Guarda su id en `story_id`.
 7. Responde comentarios nuevos de Instagram solo si son preguntas sobre In-Vite, con datos de `facts.md`, tono amable y breve, invitando a https://in-vite.mx. Nada de discusiones; ignora spam.
 
 ## Proceso semanal (tarea "Crear contenido de la semana", domingo)
