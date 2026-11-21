@@ -52,7 +52,8 @@ Horarios (hora de Ciudad de México): mañana ≈ 7:45, tarde ≈ 13:45, noche �
 6. **Textos:** uno distinto por publicación, de 3 a 6 líneas: gancho, beneficio con datos de `facts.md`, llamada a la acción ("Diséñala gratis en in-vite.mx"), 4 a 8 hashtags en español (#invitacionesdigitales #boda #xvaños …).
 7. **Revisión final:** cada afirmación de cada texto y gancho contra `facts.md`. Si algo no está ahí, quítalo.
 8. **Limpieza:** borra de `reels/` los mp4 que ya se publicaron hace más de 30 días y no están programados (se pueden volver a generar desde su config). GitHub Pages tiene límite de 1 GB.
-9. Commit y push. Deja un resumen corto en `calendar/semanas.md` (qué se creó y por qué).
+9. **Comentarios para Erick:** reescribe `calendar/comentarios.md` con 8 textos nuevos y distintos (de 1 a 3 líneas, tono cercano, sin sonar a spam) para que Erick los pegue a mano en publicaciones y grupos donde la gente busca invitaciones. Solo datos de `facts.md`, cada uno con in-vite.mx.
+10. Commit y push. Deja un resumen corto en `calendar/semanas.md` (qué se creó y por qué).
 
 ## Copia en la PC de Erick
 Carpeta local: `C:\Users\Berumen\Documents\marketing\invite` (reels por semana en `reels\`). Solo la tarea "Copiar reels a la PC" escribe ahí.
