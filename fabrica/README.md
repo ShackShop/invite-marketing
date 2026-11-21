@@ -47,6 +47,7 @@ Nombres cortos (≤ 8 letras cada uno). Colores probados: #B9767A (rosa, base), 
 
 ## Revisar y renderizar
 ```bash
+node review.cjs 1 cfg.json /tmp/rev.jpg                      # UNA imagen con 7-8 momentos clave (la forma barata de revisar)
 node frames.cjs 1 /tmp/rev cfg.json 1.0 3.0 8.6 13.5 17.5   # capturas para revisar (mirar que ningún texto se salga)
 node render.cjs 1 ../reels/2026-11-23-ana-diego-r1.mp4 cfg.json   # ~1 min por reel
 ```
