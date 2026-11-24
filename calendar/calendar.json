@@ -181,13 +181,15 @@
       "id": "2026-11-25-tarde",
       "date": "2026-11-25",
       "slot": "tarde",
-      "video": "reels/2026-11-25-b-r2.mp4",
-      "caption": "¿Cuántos sí van? Sin adivinar 🤔\nTus invitados confirman en un toque desde el enlace y tú ves la lista: quién va, cuántos y quién no podrá ir.\nPuedes poner fecha límite y preguntas extra.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #confirmaciondeasistencia #listadeinvitados #rsvp #organizatuboda",
+      "video": "reels/tutorial-es-01.mp4",
+      "caption": "¿No sabes cómo empezar tu invitación digital? 👇\nEste es el proceso real en In-Vite: le cuentas tu evento al asistente con IA, eliges fotos y estilo, la compartes por WhatsApp y tus invitados confirman y reciben su pase QR.\nDiseñarla es gratis; pagas $350 MXN solo al activarla, todo incluido.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitaciondeboda #organizatuboda #tutorial",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-25-b-r2.mp4",
+      "lang": "es"
     },
     {
       "id": "2026-11-25-noche",
@@ -229,13 +231,15 @@
       "id": "2026-11-26-noche",
       "date": "2026-11-26",
       "slot": "noche",
-      "video": "reels/2026-11-26-c-r1.mp4",
-      "caption": "¿Y si tu invitación la haces tú? 💌\nNo necesitas saber de diseño: eliges un estilo, cambias nombres, fotos y colores desde el celular o la compu.\n$350 MXN por invitación, todo incluido e invitados ilimitados.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #hazlotumisma #invitacionesweb #invitaciondigital",
+      "video": "reels/tutorial-en-01.mp4",
+      "caption": "Not sure where to start with your digital invitation? 👇\nThis is the real process in In-Vite: tell the AI assistant about your event, pick your photos and style, share it on WhatsApp, and guests RSVP in one tap and get a QR pass.\nIt's bilingual (English and Spanish), so every guest reads it in their language.\nDesigning is free; you only pay $350 MXN (about $19 USD) to activate it, all included.\n👉 Design yours free at in-vite.mx\n#digitalinvitation #weddinginvitation #bilingualwedding #quinceanera #weddingplanning #rsvp",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-26-c-r1.mp4",
+      "lang": "en"
     },
     {
       "id": "2026-11-27-manana",
@@ -277,13 +281,15 @@
       "id": "2026-11-28-manana",
       "date": "2026-11-28",
       "slot": "manana",
-      "video": "reels/2026-11-28-a-r2.mp4",
-      "caption": "Alguien confirmó… y te llega el aviso por WhatsApp 🔔\nTus invitados confirman en un toque desde su celular, sin descargar nada, y reciben su pase QR.\nTú solo ves cómo se llena tu lista.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #confirmaciondeasistencia #whatsapp #pasesqr",
+      "video": "reels/tutorial-ad-es-01.mp4",
+      "caption": "Así se arma una invitación digital en In-Vite ✨\nLe cuentas todo al asistente, la IA llena los pasos, subes tus fotos y eliges un estilo ya hecho con tus datos.\nDiseñarla es gratis: solo pagas $350 MXN al activarla, con invitados ilimitados.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #boda #invitaciondigital #fiesta #hazlotumisma",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-28-a-r2.mp4",
+      "lang": "es"
     },
     {
       "id": "2026-11-28-tarde",

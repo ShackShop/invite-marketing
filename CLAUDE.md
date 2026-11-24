@@ -18,11 +18,19 @@ Objetivo único: atraer clientes nuevos a In-Vite (https://in-vite.mx), mostrand
 - Facebook: conector `facebook_organic`, página `774590909061507` (In-Vite MX). Acción `create_reel` con `video_url` y `description`.
 - Antes de publicar, confirma con `get_connectors` que ambas cuentas siguen ahí. Si falta una, publica en la otra y avisa.
 
+## Tutoriales y publicaciones en inglés
+- `reels/tutorial-es-01.mp4` (74 s, voz Andrea), `reels/tutorial-en-01.mp4` (76 s, voz Matilda) y `reels/tutorial-ad-es-01.mp4` (49 s): capturas reales de la app con invitaciones de muestra (nombres inventados). Se reusan cada 21 días o más, siempre con texto nuevo.
+- Las publicaciones orgánicas no se pueden segmentar por idioma desde la API (solo los anuncios pagados). Para llegar al público en inglés:
+  - Los posts con `"lang": "en"` llevan texto 100% en inglés y hashtags en inglés (#digitalinvitation #weddinginvitation #bilingualwedding #quinceanera #weddingplanning #rsvp …), con el precio como "$350 MXN (about $19 USD)".
+  - Van en el slot **noche** (19:45 CDMX = tarde en EE. UU.).
+  - Cada semana planea **2 posts en inglés** (el tutorial en inglés o un reel con texto en inglés); el resto en español.
+  - Datos que más le importan a ese público (de `facts.md`): bilingüe, invitados en Estados Unidos, WhatsApp, pases QR.
+
 ## Calendario: `calendar/calendar.json`
 ```json
 { "posts": [ { "id": "2026-11-23-manana", "date": "2026-11-23", "slot": "manana|tarde|noche",
   "video": "reels/archivo.mp4", "caption": "texto con hashtags", "status": "pendiente|publicado|error",
-  "ig_id": null, "fb_id": null, "published_at": null, "note": null } ] }
+  "ig_id": null, "fb_id": null, "published_at": null, "note": null, "lang": "es|en (opcional, es por defecto)" } ] }
 ```
 Horarios (hora de Ciudad de México): mañana ≈ 7:45, tarde ≈ 13:45, noche ≈ 19:45.
 
@@ -51,7 +59,7 @@ Horarios (hora de Ciudad de México): mañana ≈ 7:45, tarde ≈ 13:45, noche �
    - Crear un reel nuevo (`reel5.js`, …) solo si los datos de la semana muestran que hace falta un tema distinto; revísalo con review.cjs antes de renderizar.
 6. **Textos:** uno distinto por publicación, de 3 a 6 líneas: gancho, beneficio con datos de `facts.md`, llamada a la acción ("Diséñala gratis en in-vite.mx"), 4 a 8 hashtags en español (#invitacionesdigitales #boda #xvaños …).
 7. **Revisión final:** cada afirmación de cada texto y gancho contra `facts.md`. Si algo no está ahí, quítalo.
-8. **Limpieza:** borra de `reels/` los mp4 que ya se publicaron hace más de 30 días y no están programados (se pueden volver a generar desde su config). GitHub Pages tiene límite de 1 GB.
+8. **Limpieza:** borra de `reels/` los mp4 que ya se publicaron hace más de 30 días y no están programados (se pueden volver a generar desde su config). GitHub Pages tiene límite de 1 GB. **Nunca borres `reels/tutorial-*.mp4`**: son grabaciones reales de la app con voz y no se pueden regenerar.
 9. **Comentarios para Erick:** reescribe `calendar/comentarios.md` con 8 textos nuevos y distintos (de 1 a 3 líneas, tono cercano, sin sonar a spam) para que Erick los pegue a mano en publicaciones y grupos donde la gente busca invitaciones. Solo datos de `facts.md`, cada uno con in-vite.mx.
 10. Commit y push. Deja un resumen corto en `calendar/semanas.md` (qué se creó y por qué).
 
