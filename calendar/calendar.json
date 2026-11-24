@@ -167,18 +167,6 @@
       "note": null
     },
     {
-      "id": "2026-11-25-manana",
-      "date": "2026-11-25",
-      "slot": "manana",
-      "video": "reels/2026-11-25-a-r1.mp4",
-      "caption": "Tu invitación digital, sin esperar a nadie ✨\nBoda, XV años, bautizo, cumpleaños, posada… hay estilos listos para cada evento y tú los personalizas.\nLa compartes por WhatsApp y tus invitados no descargan nada.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #bautizo #invitaciondigital #posada",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
-    },
-    {
       "id": "2026-11-25-tarde",
       "date": "2026-11-25",
       "slot": "tarde",
@@ -196,37 +184,27 @@
       "id": "2026-11-25-noche",
       "date": "2026-11-25",
       "slot": "noche",
-      "video": "reels/2026-11-25-c-r4.mp4",
-      "caption": "¿Otra vez esperando a que te hagan un cambio? ⌛\nEn In-Vite cambias tú la letra, los colores, las fotos y agregas lo que necesites.\nLo que ves es lo que verán tus invitados, en celular o compu.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitacionpersonalizada #bodas #novias",
+      "video": "reels/tips-es-cuando-mandar.mp4",
+      "caption": "¿Cuándo se mandan las invitaciones de boda? Guárdalo para no fallar 📌\n4 a 6 meses: save the date. 6 a 8 semanas: la invitación. 3 a 4 semanas: fecha límite para confirmar.\nEn In-Vite pones la fecha límite, tus invitados confirman en un toque y te llega un aviso por WhatsApp con cada confirmación.\nDiséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #bodas2027 #novias #planeaciondeboda #invitacionesdeboda",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
-    },
-    {
-      "id": "2026-11-26-manana",
-      "date": "2026-11-26",
-      "slot": "manana",
-      "video": "reels/2026-11-26-a-r2.mp4",
-      "caption": "¿Pases en la entrada? Con código QR 📲\nCada invitado confirma y recibe su pase QR en el celular. En la entrada se escanean con el celular.\nIncluido en tu invitación, sin cobros extra.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #pasesqr #boda #xvaños #controldeacceso #organizaciondeeventos",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-25-c-r4.mp4"
     },
     {
       "id": "2026-11-26-tarde",
       "date": "2026-11-26",
       "slot": "tarde",
-      "video": "reels/2026-11-26-b-r3.mp4",
-      "caption": "Escribe tu evento y ya ✍️\nLa IA de In-Vite arma la invitación completa con lo que le cuentas: textos, itinerario, colores y diseño.\nSi prefieres, también puedes empezar desde un estilo listo.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #quinceañera #inteligenciaartificial #ia #invitaciondexv",
+      "video": "reels/tips-es-que-poner.mp4",
+      "caption": "Checklist: lo que no puede faltar en tu invitación de boda ✅\nNombres y fecha, hora y lugar con botón de mapa, itinerario, un mensaje de ustedes y confirmación con fecha límite.\nCon el asistente con IA de In-Vite le cuentas tu evento y arma la invitación completa: textos, itinerario, colores y diseño.\nDiséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #novias #organizaciondebodas #invitacionesdeboda #bodamexicana",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-26-b-r3.mp4"
     },
     {
       "id": "2026-11-26-noche",
@@ -241,18 +219,6 @@
       "note": null,
       "note_prev_video": "reels/2026-11-26-c-r1.mp4",
       "lang": "en"
-    },
-    {
-      "id": "2026-11-27-manana",
-      "date": "2026-11-27",
-      "slot": "manana",
-      "video": "reels/2026-11-27-a-r1.mp4",
-      "caption": "¿Boda, XV años o bautizo? Hazla tú 🎉\nHay estilos listos para boda, boda civil, XV, bautizo, primera comunión, cumpleaños y más. Eliges uno y lo haces tuyo.\nDiseñar es gratis; pagas solo al activarla.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #bodacivil #xvaños #bautizo #primeracomunion",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
     },
     {
       "id": "2026-11-27-tarde",
@@ -270,18 +236,19 @@
       "id": "2026-11-27-noche",
       "date": "2026-11-27",
       "slot": "noche",
-      "video": "reels/2026-11-27-c-r2.mp4",
-      "caption": "¿Haciendo la cuenta de mesas a mano? 📝\nEn In-Vite asignas a cada invitado su mesa y llevas la cuenta de lugares, junto a tu lista de confirmados.\nLista para imprimir o descargar en Excel.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #acomododemesas #boda #xvaños #organizatuboda #listadeinvitados",
+      "video": "reels/tips-es-errores-confirmaciones.mp4",
+      "caption": "3 errores al pedir que confirmen a tu boda 🙅\n1) Confirmaciones sueltas por mensaje. 2) No decir cuántos lugares tiene cada quien. 3) No poner fecha límite.\nEn In-Vite cada invitado recibe su enlace personal con sus lugares, confirma en un toque y tú ves la lista al momento (descargable en Excel).\nDiséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #rsvp #novias #confirmaciondeasistencia #bodas2027",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-27-c-r2.mp4"
     },
     {
-      "id": "2026-11-28-manana",
+      "id": "2026-11-28-tarde",
       "date": "2026-11-28",
-      "slot": "manana",
+      "slot": "tarde",
       "video": "reels/tutorial-ad-es-01.mp4",
       "caption": "Así se arma una invitación digital en In-Vite ✨\nLe cuentas todo al asistente, la IA llena los pasos, subes tus fotos y eliges un estilo ya hecho con tus datos.\nDiseñarla es gratis: solo pagas $350 MXN al activarla, con invitados ilimitados.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #boda #invitaciondigital #fiesta #hazlotumisma",
       "status": "pendiente",
@@ -289,20 +256,8 @@
       "fb_id": null,
       "published_at": null,
       "note": null,
-      "note_prev_video": "reels/2026-11-28-a-r2.mp4",
+      "note_prev_video": "reels/2026-11-28-b-r3.mp4",
       "lang": "es"
-    },
-    {
-      "id": "2026-11-28-tarde",
-      "date": "2026-11-28",
-      "slot": "tarde",
-      "video": "reels/2026-11-28-b-r3.mp4",
-      "caption": "Dos líneas bastan ✨\nCuéntale a la IA nombres, fecha, lugar y colores, y arma tu invitación completa.\n¿Familia en Estados Unidos? Va en español e inglés en la misma invitación y cada quien la lee en su idioma 🇲🇽🇺🇸\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #invitacionbilingue #quinceañera #inteligenciaartificial #misxv",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
     },
     {
       "id": "2026-11-28-noche",
@@ -310,18 +265,6 @@
       "slot": "noche",
       "video": "reels/2026-11-28-c-r4.mp4",
       "caption": "¿Tu invitación se ve distinta en la compu y en el cel? 📱💻\nEn In-Vite la editas en cualquiera de los dos y se ve igual: lo que ves es lo que verán tus invitados.\nCambia colores, fotos, textos y música tú misma.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitacionweb #invitacionpersonalizada #novias2027",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
-    },
-    {
-      "id": "2026-11-29-manana",
-      "date": "2026-11-29",
-      "slot": "manana",
-      "video": "reels/2026-11-29-a-r1.mp4",
-      "caption": "Diseñar tu invitación no cuesta nada 💌\nLa armas completa gratis y pagas $350 MXN solo cuando la activas para compartirla. Pago único, con tarjeta.\nInvitados ilimitados y sin cobros por confirmación.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitaciondigital #bodas2027 #ahorraentuboda",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
@@ -344,13 +287,15 @@
       "id": "2026-11-29-noche",
       "date": "2026-11-29",
       "slot": "noche",
-      "video": "reels/2026-11-29-c-r3.mp4",
-      "caption": "¿Tus XV son en 2027? 👑\nCuéntale a la IA cómo te imaginas tu fiesta y arma la invitación: textos, itinerario, colores y diseño.\nTus invitados confirman y reciben su pase QR en el celular.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #misxv #quinceañera #xv2027 #invitaciondexv",
+      "video": "reels/tips-en-when-to-send.mp4",
+      "caption": "When should you send your wedding invitations? Save this 📌\n4–6 months: save the date. 6–8 weeks: the invitation. 3–4 weeks: RSVP deadline. 1–2 weeks: final count to your venue.\nWith In-Vite you set an RSVP deadline, guests reply in one tap and you get a WhatsApp alert for each one. Bilingual: English and Spanish in the same invitation.\nDesign yours free at in-vite.mx — $350 MXN (about $19 USD) only when you activate it.\n#digitalinvitation #weddinginvitation #weddingplanning #rsvp #bilingualwedding #savethedate",
       "status": "pendiente",
       "ig_id": null,
       "fb_id": null,
       "published_at": null,
-      "note": null
+      "note": null,
+      "note_prev_video": "reels/2026-11-29-c-r3.mp4",
+      "lang": "en"
     }
   ]
 }

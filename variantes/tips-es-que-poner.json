@@ -1,0 +1,43 @@
+{
+ "lang": "es",
+ "music": 0,
+ "hook": {
+  "text": "Lo que no puede faltar en tu invitación de boda",
+  "shot": "es/30_invitado_portada",
+  "tag": "Checklist"
+ },
+ "tips": [
+  {
+   "title": "Nombres y fecha",
+   "text": "Lo primero que deben ver",
+   "shot": "es/18_editor"
+  },
+  {
+   "title": "Hora y lugar con mapa",
+   "text": "Un botón para llegar sin perderse",
+   "shot": "es/21_ubicacion"
+  },
+  {
+   "title": "El itinerario",
+   "text": "Ceremonia, recepción, vals… con sus horas",
+   "shot": "es/20_scroll2"
+  },
+  {
+   "title": "Un mensaje de ustedes",
+   "text": "Que se sienta personal, no de plantilla",
+   "shot": "es/19_scroll1"
+  },
+  {
+   "title": "Confirmación con fecha límite",
+   "text": "Para saber cuántos van, a tiempo",
+   "shot": "es/31_rsvp"
+  }
+ ],
+ "cta": {
+  "text": "La IA de In-Vite arma todo esto con lo que le cuentas de tu evento",
+  "line": "Diséñala gratis en",
+  "small": [
+   "Español e inglés en la misma invitación"
+  ]
+ }
+}

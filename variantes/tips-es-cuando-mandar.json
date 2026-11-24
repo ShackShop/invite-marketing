@@ -1,0 +1,43 @@
+{
+ "lang": "es",
+ "music": 2,
+ "hook": {
+  "text": "¿Cuándo se mandan las invitaciones de boda?",
+  "shot": "es/29_invitado_sobre",
+  "tag": "Guárdalo"
+ },
+ "tips": [
+  {
+   "title": "4 a 6 meses antes",
+   "text": "El \"save the date\" (9 meses si tus invitados viajan)",
+   "shot": "es/30_invitado_portada"
+  },
+  {
+   "title": "6 a 8 semanas antes",
+   "text": "La invitación con todos los detalles",
+   "shot": "es/37_sobre_personal"
+  },
+  {
+   "title": "3 a 4 semanas antes",
+   "text": "Tu fecha límite para confirmar",
+   "shot": "es/31_rsvp"
+  },
+  {
+   "title": "2 a 3 semanas antes",
+   "text": "Busca a quien no ha respondido",
+   "shot": "es/34_whatsapp"
+  },
+  {
+   "title": "1 a 2 semanas antes",
+   "text": "Da el número final al salón y al banquete",
+   "shot": "es/40_lista"
+  }
+ ],
+ "cta": {
+  "text": "En In-Vite pones la fecha límite, tus invitados confirman en un toque y te llega un aviso por WhatsApp",
+  "line": "Diséñala gratis en",
+  "small": [
+   "$350 MXN solo al activarla, todo incluido"
+  ]
+ }
+}

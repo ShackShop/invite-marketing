@@ -1,0 +1,43 @@
+{
+ "lang": "en",
+ "music": 3,
+ "hook": {
+  "text": "When should you send your wedding invitations?",
+  "shot": "en/37_sobre_personal",
+  "tag": "Save this"
+ },
+ "tips": [
+  {
+   "title": "4 to 6 months before",
+   "text": "Save the date (9 months if guests travel)",
+   "shot": "en/18_editor"
+  },
+  {
+   "title": "6 to 8 weeks before",
+   "text": "The invitation with all the details",
+   "shot": "en/19_scroll1"
+  },
+  {
+   "title": "3 to 4 weeks before",
+   "text": "Your RSVP deadline",
+   "shot": "en/10_confirmacion"
+  },
+  {
+   "title": "2 to 3 weeks before",
+   "text": "Follow up with anyone who hasn't replied",
+   "shot": "en/34_whatsapp"
+  },
+  {
+   "title": "1 to 2 weeks before",
+   "text": "Give the final count to your venue and caterer",
+   "shot": "en/40_lista"
+  }
+ ],
+ "cta": {
+  "text": "With In-Vite you set an RSVP deadline, guests reply in one tap and you get a WhatsApp alert for each one",
+  "line": "Design yours free at",
+  "small": [
+   "Bilingual: English and Spanish"
+  ]
+ }
+}

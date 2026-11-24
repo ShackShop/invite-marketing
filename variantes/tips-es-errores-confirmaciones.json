@@ -1,0 +1,33 @@
+{
+ "lang": "es",
+ "music": 1,
+ "hook": {
+  "text": "3 errores al pedir que confirmen a tu boda",
+  "shot": "es/37_sobre_personal",
+  "tag": "Evítalos"
+ },
+ "tips": [
+  {
+   "title": "Que te confirmen por mensaje",
+   "text": "Se pierden entre chats y llamadas. Mejor un formulario de un toque",
+   "shot": "es/31_rsvp"
+  },
+  {
+   "title": "No decir cuántos lugares tiene cada quien",
+   "text": "Un enlace por invitado, con su nombre y sus lugares",
+   "shot": "es/38_confirmado_familia"
+  },
+  {
+   "title": "No poner fecha límite",
+   "text": "Ponla 3 a 4 semanas antes del evento",
+   "shot": "es/10_confirmacion"
+  }
+ ],
+ "cta": {
+  "text": "Con In-Vite: pase QR para cada invitado, lista al momento y aviso por WhatsApp con cada confirmación",
+  "line": "Diséñala gratis en",
+  "small": [
+   "Invitados ilimitados, sin cobros por confirmación"
+  ]
+ }
+}
