@@ -25,7 +25,9 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE = os.path.dirname(os.path.abspath(__file__))
 F = os.path.join(HERE, 'fonts') + '/'
 W, H, FPS = 1080, 1920, 30
-PLUM = (42, 31, 61); PLUM2 = (66, 48, 92); GOLD = (214, 166, 74); CREAM = (250, 244, 234); LILAC = (196, 178, 230)
+# Paleta de marca In-Vite (logo): rosa, menta, gris pizarra sobre blanco
+BG = (253, 251, 251); MINT_T = (212, 240, 232); PINK_T = (251, 223, 231)
+INK = (61, 75, 86); MUTED = (112, 124, 134); MINT = (79, 182, 157); PINK = (238, 146, 170)
 B8 = lambda s: ImageFont.truetype(F + 'bricolage-grotesque-latin-800-normal.woff2', s)
 B7 = lambda s: ImageFont.truetype(F + 'bricolage-grotesque-latin-700-normal.woff2', s)
 B5 = lambda s: ImageFont.truetype(F + 'bricolage-grotesque-latin-500-normal.woff2', s)
@@ -49,10 +51,11 @@ def fit(d, text, maker, size, maxw, maxlines):
 
 
 def bg():
-    im = Image.new('RGB', (W, H), PLUM)
-    g = Image.new('L', (W, H), 0); dg = ImageDraw.Draw(g)
-    dg.ellipse((-300, 1100, 1400, 2500), fill=160); dg.ellipse((500, -500, 1600, 600), fill=90)
-    im.paste(Image.new('RGB', (W, H), PLUM2), (0, 0), g.filter(ImageFilter.GaussianBlur(220)))
+    # Paleta In-Vite: blanco con manchas suaves menta y rosa
+    im = Image.new('RGB', (W, H), BG)
+    for box, col, a in (((-300, 1100, 1400, 2500), MINT_T, 230), ((500, -500, 1600, 600), PINK_T, 230)):
+        g = Image.new('L', (W, H), 0); ImageDraw.Draw(g).ellipse(box, fill=a)
+        im.paste(Image.new('RGB', (W, H), col), (0, 0), g.filter(ImageFilter.GaussianBlur(220)))
     return im
 
 
@@ -80,33 +83,33 @@ def hook_frame(cfg):
     grad = Image.new('L', (W, H), 0); gd = ImageDraw.Draw(grad)
     for y in range(H):
         gd.line([(0, y), (W, y)], fill=int(235 * max(0, (y - 900) / 1020) ** 1.2) if y > 900 else 0)
-    im.paste(Image.new('RGB', (W, H), (20, 14, 30)), (0, 0), grad)
+    im.paste(Image.new('RGB', (W, H), (36, 46, 54)), (0, 0), grad)
     d = ImageDraw.Draw(im)
     f, lines, size = fit(d, cfg['text'], B8, 92, 960, 4)
     y = H - 170 - len(lines) * int(size * 1.12)
     for ln in lines:
-        d.text((W // 2, y), ln, font=f, fill=CREAM, anchor='ma', stroke_width=2, stroke_fill=(20, 14, 30)); y += int(size * 1.12)
+        d.text((W // 2, y), ln, font=f, fill=(255,255,255), anchor='ma', stroke_width=2, stroke_fill=(36, 46, 54)); y += int(size * 1.12)
     tag = cfg.get('tag')
     if tag:
         tf = B7(40); tw = d.textlength(tag, font=tf)
-        d.rounded_rectangle(((W - tw) / 2 - 30, H - 150, (W + tw) / 2 + 30, H - 86), 32, fill=GOLD)
-        d.text((W // 2, H - 118), tag, font=tf, fill=PLUM, anchor='mm')
+        d.rounded_rectangle(((W - tw) / 2 - 30, H - 150, (W + tw) / 2 + 30, H - 86), 32, fill=PINK)
+        d.text((W // 2, H - 118), tag, font=tf, fill=(255,255,255), anchor='mm')
     return im
 
 
 def tip_frame(n, tip, total):
     im = bg(); d = ImageDraw.Draw(im)
     # número
-    d.ellipse((90, 120, 230, 260), fill=GOLD)
-    d.text((160, 190), str(n), font=B8(84), fill=PLUM, anchor='mm')
-    d.text((260, 190), f'/ {total}', font=B5(40), fill=LILAC, anchor='lm')
+    d.ellipse((90, 120, 230, 260), fill=MINT)
+    d.text((160, 190), str(n), font=B8(84), fill=(255,255,255), anchor='mm')
+    d.text((260, 190), f'/ {total}', font=B5(40), fill=MUTED, anchor='lm')
     f, lines, size = fit(d, tip['title'], B8, 78, 960, 2)
     y = 300
-    for ln in lines: d.text((90, y), ln, font=f, fill=CREAM); y += int(size * 1.12)
+    for ln in lines: d.text((90, y), ln, font=f, fill=INK); y += int(size * 1.12)
     if tip.get('text'):
         f2, l2, s2 = fit(d, tip['text'], B5, 46, 920, 3)
         y += 12
-        for ln in l2: d.text((90, y), ln, font=f2, fill=LILAC); y += int(s2 * 1.25)
+        for ln in l2: d.text((90, y), ln, font=f2, fill=MUTED); y += int(s2 * 1.25)
     phone(im, shot(tip['shot']), max(y + 50, 640), sw=560)
     return im
 
@@ -120,12 +123,12 @@ def cta_frame(cfg):
         im.paste(lg, ((W - 260) // 2, 380), m)
     f, lines, size = fit(d, cfg['text'], B7, 66, 940, 4)
     y = 720
-    for ln in lines: d.text((W // 2, y), ln, font=f, fill=CREAM, anchor='ma'); y += int(size * 1.2)
+    for ln in lines: d.text((W // 2, y), ln, font=f, fill=INK, anchor='ma'); y += int(size * 1.2)
     y += 60
-    d.text((W // 2, y), cfg.get('line', 'Diséñala gratis en'), font=B5(52), fill=LILAC, anchor='ma'); y += 80
-    d.text((W // 2, y), 'in-vite.mx', font=B8(128), fill=GOLD, anchor='ma'); y += 200
+    d.text((W // 2, y), cfg.get('line', 'Diséñala gratis en'), font=B5(52), fill=MUTED, anchor='ma'); y += 80
+    d.text((W // 2, y), 'in-vite.mx', font=B8(128), fill=MINT, anchor='ma'); y += 200
     for ln in cfg.get('small', []):
-        d.text((W // 2, y), ln, font=B5(42), fill=CREAM, anchor='ma'); y += 66
+        d.text((W // 2, y), ln, font=B5(42), fill=INK, anchor='ma'); y += 66
     return im
 
 

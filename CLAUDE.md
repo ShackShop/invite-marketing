@@ -12,6 +12,7 @@ Objetivo único: atraer clientes nuevos a In-Vite (https://in-vite.mx), mostrand
 3. No copiar música, marcas ni personajes de terceros. La música sale de `fabrica/audio.py`.
 4. Un mismo video no se publica dos veces en menos de 21 días. Cada publicación lleva un texto distinto.
 5. **2 publicaciones al día (tarde y noche)**, cada una en Instagram y Facebook a la vez. El slot mañana ya no se usa (desde el 25 nov 2026): menos posts, mejor hechos.
+7. **Paleta de marca In-Vite** (del logo) en todo video, portada y gráfico: fondo blanco con toques suaves de **menta** `#4FB69D` y **rosa** `#EE92AA`, texto gris pizarra `#3D4B56`. Nada de fondos morados, azules ni dorados. Ya aplicada en `tips.py`, `tutorial_compose.py` y `ad_compose.py`.
 6. **Gancho primero:** los primeros 2 segundos deciden todo. Cada reel abre con una pregunta o frase grande sobre la imagen (nada de logo ni intro lenta).
 
 ## Mandato de Erick (24 nov 2026): agente de marketing con autonomía
