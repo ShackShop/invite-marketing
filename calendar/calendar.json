@@ -174,13 +174,14 @@
       "slot": "tarde",
       "video": "reels/tutorial-es-01.mp4",
       "caption": "¿No sabes cómo empezar tu invitación digital? 👇\nEste es el proceso real en In-Vite: le cuentas tu evento al asistente con IA, eliges fotos y estilo, la compartes por WhatsApp y tus invitados confirman y reciben su pase QR.\nDiseñarla es gratis; pagas $350 MXN solo al activarla, todo incluido.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitaciondeboda #organizatuboda #tutorial",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null,
+      "status": "publicado",
+      "ig_id": "18047076578648415",
+      "fb_id": "774590909061507_122191211702971470",
+      "published_at": "2026-11-25T13:48:00-06:00",
+      "note": "YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
       "note_prev_video": "reels/2026-11-25-b-r2.mp4",
-      "lang": "es"
+      "lang": "es",
+      "yt_id": null
     },
     {
       "id": "2026-11-25-noche",
