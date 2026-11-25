@@ -178,10 +178,11 @@
       "ig_id": "18047076578648415",
       "fb_id": "774590909061507_122191211702971470",
       "published_at": "2026-11-25T13:48:00-06:00",
-      "note": "YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
+      "note": "YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. Historia: el video dura 74 s y las historias aceptan máx. 60 s; se subió una copia acelerada 1.26x (ffmpeg setpts/atempo, 59 s).",
       "note_prev_video": "reels/2026-11-25-b-r2.mp4",
       "lang": "es",
-      "yt_id": null
+      "yt_id": null,
+      "story_id": "17881623642564152"
     },
     {
       "id": "2026-11-25-noche",
