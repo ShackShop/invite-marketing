@@ -148,11 +148,12 @@
       "slot": "tarde",
       "video": "reels/2026-11-24-b-r4.mp4",
       "caption": "¿Se movió la hora y tu invitación sigue diciendo otra cosa? ⏰\nEn In-Vite la editas tú desde el celular o la compu: textos, colores, fotos, música y diseño.\nYa activada, tienes 15 días para seguir ajustando.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #invitacionpersonalizada #bodas2027 #novias2027",
-      "status": "error",
-      "ig_id": null,
+      "status": "publicado",
+      "ig_id": "18111398348192301",
       "fb_id": "774590909061507_122191072712971470",
       "published_at": "2026-11-24T13:51:00-06:00",
-      "note": "Facebook publicado. Instagram (reel e historia) fallaron: \"please authorize via Instagram\" (Graph API: objeto 17915722569589996 / 17915722677589996 no existe o sin permisos). Posible reautorizacion de Instagram en Windsor. Verificar en la cuenta si se alcanzo a publicar antes de reintentar."
+      "note": "Facebook a las 13:51. Instagram falló por la conexión caída; reconectado y publicado a mano a las 19:03 (reel + historia).",
+      "story_id": "18147759079578414"
     },
     {
       "id": "2026-11-24-noche",
