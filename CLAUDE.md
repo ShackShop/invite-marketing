@@ -15,7 +15,7 @@ Objetivo único: atraer clientes nuevos a In-Vite (https://in-vite.mx), mostrand
 6. **Gancho primero:** los primeros 2 segundos deciden todo. Cada reel abre con una pregunta o frase grande sobre la imagen (nada de logo ni intro lenta).
 
 ## Cuentas (conector Windsor.ai for Social Media)
-- Instagram: conector `instagram`, cuenta **`17841478403770155` (@mx.invite)**, la ligada a la página de Facebook. ⚠️ NO uses `17841477699867145` (@in_vite2025): se conectó por error y ahí se publicaron los reels del 20 al 24 nov 2026. Acción `create_video_post` con `video_url` y `caption` (máx. 2200 caracteres). Se publica como Reel.
+- Instagram: conector `instagram`, cuenta **`17841477699867145` (@in_vite2025)**, la cuenta principal (Erick la eligió el 24 nov 2026). ⚠️ NO publiques en `17841478403770155` (@mx.invite): también está conectada pero no se usa.
 - Facebook: conector `facebook_organic`, página `774590909061507` (In-Vite MX). Acción `create_reel` con `video_url` y `description`.
 - Antes de publicar, confirma con `get_connectors` que ambas cuentas siguen ahí. Si falta una, publica en la otra y avisa.
 - Si alguna red falla, el resumen final empieza con "⚠️ FALLÓ <red>:" y el motivo, para que Erick lo vea en la notificación.
