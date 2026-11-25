@@ -15,9 +15,11 @@ Objetivo único: atraer clientes nuevos a In-Vite (https://in-vite.mx), mostrand
 6. **Gancho primero:** los primeros 2 segundos deciden todo. Cada reel abre con una pregunta o frase grande sobre la imagen (nada de logo ni intro lenta).
 
 ## Cuentas (conector Windsor.ai for Social Media)
-- Instagram: conector `instagram`, cuenta `17841477699867145` (INVITE, @in_vite2025). Acción `create_video_post` con `video_url` y `caption` (máx. 2200 caracteres). Se publica como Reel.
+- Instagram: conector `instagram`, cuenta **`17841478403770155` (@mx.invite)**, la ligada a la página de Facebook. ⚠️ NO uses `17841477699867145` (@in_vite2025): se conectó por error y ahí se publicaron los reels del 20 al 24 nov 2026. Acción `create_video_post` con `video_url` y `caption` (máx. 2200 caracteres). Se publica como Reel.
 - Facebook: conector `facebook_organic`, página `774590909061507` (In-Vite MX). Acción `create_reel` con `video_url` y `description`.
 - Antes de publicar, confirma con `get_connectors` que ambas cuentas siguen ahí. Si falta una, publica en la otra y avisa.
+- Si alguna red falla, el resumen final empieza con "⚠️ FALLÓ <red>:" y el motivo, para que Erick lo vea en la notificación.
+- YouTube (`youtube`, canal "Invite") y TikTok (`tiktok_organic`, "In-Vite") están conectados. TikTok no permite publicar por API: Erick sube los videos a mano desde TikTok Studio.
 
 ## Tutoriales y publicaciones en inglés
 - `reels/tutorial-es-01.mp4` (74 s, voz Andrea), `reels/tutorial-en-01.mp4` (76 s, voz Matilda) y `reels/tutorial-ad-es-01.mp4` (49 s): capturas reales de la app con invitaciones de muestra (nombres inventados). Se reusan cada 21 días o más, siempre con texto nuevo.
