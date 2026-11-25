@@ -161,11 +161,12 @@
       "slot": "noche",
       "video": "reels/2026-11-24-c-r1.mp4",
       "caption": "¿Esperar a que alguien ponga tus nombres en tu invitación? 🤷‍♀️\nEn In-Vite eliges un estilo listo y la personalizas tú: nombres, fotos, colores y música.\nDiseñar es gratis; pagas $350 MXN solo al activarla. Pago único, sin cobros extra.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #boda #xvaños #hazlotumisma #invitaciondigital #bodas2027",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null
+      "status": "error",
+      "ig_id": "17892868299620147",
+      "fb_id": "774590909061507_122191099346971470",
+      "published_at": "2026-11-24T19:47:00-06:00",
+      "note": "Instagram y Facebook publicados (NO repetir). YouTube falló: límite de subidas (rate limit), 2 intentos.",
+      "yt_id": null
     },
     {
       "id": "2026-11-25-tarde",
