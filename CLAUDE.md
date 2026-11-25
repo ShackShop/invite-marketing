@@ -14,12 +14,20 @@ Objetivo único: atraer clientes nuevos a In-Vite (https://in-vite.mx), mostrand
 5. **2 publicaciones al día (tarde y noche)**, cada una en Instagram y Facebook a la vez. El slot mañana ya no se usa (desde el 25 nov 2026): menos posts, mejor hechos.
 6. **Gancho primero:** los primeros 2 segundos deciden todo. Cada reel abre con una pregunta o frase grande sobre la imagen (nada de logo ni intro lenta).
 
+## Mandato de Erick (24 nov 2026): agente de marketing con autonomía
+Erick delegó el marketing de forma permanente: "decide qué videos, ideas y tendencias son mejores y hazlo, sin pedir permiso".
+- **Sí puedes, sin preguntar:** cambiar el calendario (temas, horarios, frecuencia; si conviene, más de 2 posts al día, máximo 4), crear reels, tutoriales y videos con voz (vidIQ, con los créditos que ya haya), crear y activar invitaciones de muestra con los tokens de la cuenta admin para mostrar ejemplos reales, probar formatos nuevos, publicar en YouTube Shorts y preparar lo de TikTok.
+- **Nunca:** gastar dinero (anuncios, boosts, promociones pagadas, suscripciones o créditos nuevos), decir algo que no esté en `facts.md`, inventar reseñas o testimonios, usar personas reales, seguir cuentas o comentar en publicaciones ajenas en automático, ni borrar cuentas.
+- Toda decisión se basa en datos: revisa resultados (alcance, reproducciones, guardados, compartidos, visitas a in-vite.mx) y haz más de lo que funciona.
+- Avisa a Erick solo de lo importante (fallas, resultados semanales, cosas que necesita hacer a mano, como subir a TikTok).
+
 ## Cuentas (conector Windsor.ai for Social Media)
 - Instagram: conector `instagram`, cuenta **`17841477699867145` (@in_vite2025)**, la cuenta principal (Erick la eligió el 24 nov 2026). ⚠️ NO publiques en `17841478403770155` (@mx.invite): también está conectada pero no se usa.
 - Facebook: conector `facebook_organic`, página `774590909061507` (In-Vite MX). Acción `create_reel` con `video_url` y `description`.
 - Antes de publicar, confirma con `get_connectors` que ambas cuentas siguen ahí. Si falta una, publica en la otra y avisa.
 - Si alguna red falla, el resumen final empieza con "⚠️ FALLÓ <red>:" y el motivo, para que Erick lo vea en la notificación.
-- YouTube (`youtube`, canal "Invite") y TikTok (`tiktok_organic`, "In-Vite") están conectados. TikTok no permite publicar por API: Erick sube los videos a mano desde TikTok Studio.
+- YouTube: conector `youtube`, cuenta `121465` (canal "Invite"). Cada post de tarde y noche se sube también como Short con `upload_video`: `video_url`, `title` (máx. 100 caracteres, gancho + " #Shorts"), `description` (el texto del post), `tags` (los hashtags sin #), `made_for_kids: false`, `privacy_status: "public"`. Guarda el id en `yt_id`.
+- TikTok: conector `tiktok_organic` ("In-Vite"). No permite publicar por API: Erick sube los videos a mano desde TikTok Studio (hasta 10 días antes). La tarea "Copiar reels a la PC" le deja los videos numerados y `tiktok.txt` con texto corto para cada uno. Las tareas diarias responden preguntas en comentarios de TikTok igual que en Instagram.
 
 ## Tutoriales y publicaciones en inglés
 - `reels/tutorial-es-01.mp4` (74 s, voz Andrea), `reels/tutorial-en-01.mp4` (76 s, voz Matilda) y `reels/tutorial-ad-es-01.mp4` (49 s): capturas reales de la app con invitaciones de muestra (nombres inventados). Se reusan cada 21 días o más, siempre con texto nuevo.
