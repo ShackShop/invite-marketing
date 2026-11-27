@@ -178,10 +178,10 @@
       "ig_id": "18047076578648415",
       "fb_id": "774590909061507_122191211702971470",
       "published_at": "2026-11-25T13:48:00-06:00",
-      "note": "YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. Historia: el video dura 74 s y las historias aceptan máx. 60 s; se subió una copia acelerada 1.26x (ffmpeg setpts/atempo, 59 s).",
+      "note": "YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. Historia: el video dura 74 s y las historias aceptan máx. 60 s; se subió una copia acelerada 1.26x (ffmpeg setpts/atempo, 59 s). | YouTube: ya está en el canal, al parecer subido a mano (lHjGbldCOZ4, coincide título y duración); NO volver a subir.",
       "note_prev_video": "reels/2026-11-25-b-r2.mp4",
       "lang": "es",
-      "yt_id": null,
+      "yt_id": "lHjGbldCOZ4",
       "story_id": "17881623642564152"
     },
     {
@@ -194,9 +194,9 @@
       "ig_id": "18003472869013026",
       "fb_id": "774590909061507_122191240334971470",
       "published_at": "2026-11-25T19:46:00-06:00",
-      "note": "Instagram y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
+      "note": "Instagram y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. | YouTube: ya está en el canal, al parecer subido a mano (CcW1rWJOmhc, coincide título y duración); NO volver a subir.",
       "note_prev_video": "reels/2026-11-25-c-r4.mp4",
-      "yt_id": null
+      "yt_id": "CcW1rWJOmhc"
     },
     {
       "id": "2026-11-26-tarde",
@@ -208,10 +208,10 @@
       "ig_id": "17994574700865566",
       "fb_id": "774590909061507_122191345052971470",
       "published_at": "2026-11-26T13:46:13-06:00",
-      "note": "Instagram, historia y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
+      "note": "Instagram, historia y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. | YouTube: ya está en el canal, al parecer subido a mano (Nj5Vs3T3_50, coincide título y duración); NO volver a subir.",
       "note_prev_video": "reels/2026-11-26-b-r3.mp4",
       "story_id": "18039717251852420",
-      "yt_id": null
+      "yt_id": "Nj5Vs3T3_50"
     },
     {
       "id": "2026-11-26-noche",
@@ -223,10 +223,10 @@
       "ig_id": "18080270270438372",
       "fb_id": "774590909061507_122191374206971470",
       "published_at": "2026-11-26T19:46:24-06:00",
-      "note": "Instagram y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
+      "note": "Instagram y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea. | YouTube: ya está en el canal, al parecer subido a mano (p6jqGEVJEBo, coincide título y duración); NO volver a subir.",
       "note_prev_video": "reels/2026-11-26-c-r1.mp4",
       "lang": "en",
-      "yt_id": null
+      "yt_id": "p6jqGEVJEBo"
     },
     {
       "id": "2026-11-27-tarde",
