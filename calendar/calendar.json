@@ -219,13 +219,14 @@
       "slot": "noche",
       "video": "reels/tutorial-en-01.mp4",
       "caption": "Not sure where to start with your digital invitation? 👇\nThis is the real process in In-Vite: tell the AI assistant about your event, pick your photos and style, share it on WhatsApp, and guests RSVP in one tap and get a QR pass.\nIt's bilingual (English and Spanish), so every guest reads it in their language.\nDesigning is free; you only pay $350 MXN (about $19 USD) to activate it, all included.\n👉 Design yours free at in-vite.mx\n#digitalinvitation #weddinginvitation #bilingualwedding #quinceanera #weddingplanning #rsvp",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null,
+      "status": "publicado",
+      "ig_id": "18080270270438372",
+      "fb_id": "774590909061507_122191374206971470",
+      "published_at": "2026-11-26T19:46:24-06:00",
+      "note": "Instagram y Facebook publicados. YouTube: subida limitada (rate-limited), pendiente de subir en una siguiente tarea.",
       "note_prev_video": "reels/2026-11-26-c-r1.mp4",
-      "lang": "en"
+      "lang": "en",
+      "yt_id": null
     },
     {
       "id": "2026-11-27-tarde",
