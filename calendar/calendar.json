@@ -238,9 +238,9 @@
       "ig_id": "18094904459291438",
       "fb_id": "774590909061507_122191468238971470",
       "published_at": "2026-11-27T13:46:41-06:00",
-      "note": "Instagram, historia y Facebook publicados. YouTube: subida limitada (rate-limited), no se reintentó. Antes de volver a subirlo, revisar que no esté ya en el canal.",
+      "note": "Instagram, historia y Facebook publicados. YouTube: ya está en el canal (X0A2k_bTaII, 'Cambios', 19 s); NO volver a subir.",
       "story_id": "18110932403251287",
-      "yt_id": null
+      "yt_id": "X0A2k_bTaII"
     },
     {
       "id": "2026-11-27-noche",
@@ -262,13 +262,15 @@
       "slot": "tarde",
       "video": "reels/tutorial-ad-es-01.mp4",
       "caption": "Así se arma una invitación digital en In-Vite ✨\nLe cuentas todo al asistente, la IA llena los pasos, subes tus fotos y eliges un estilo ya hecho con tus datos.\nDiseñarla es gratis: solo pagas $350 MXN al activarla, con invitados ilimitados.\n👉 Diséñala gratis en in-vite.mx\n#invitacionesdigitales #xvaños #boda #invitaciondigital #fiesta #hazlotumisma",
-      "status": "pendiente",
-      "ig_id": null,
-      "fb_id": null,
-      "published_at": null,
-      "note": null,
+      "status": "publicado",
+      "ig_id": "18580374373076864",
+      "fb_id": "774590909061507_122191598714971470",
+      "published_at": "2026-11-28T13:47:29-06:00",
+      "note": "Instagram, historia y Facebook publicados. YouTube: subida limitada (rate-limited), no se reintentó. Antes de volver a subirlo, revisar que no esté ya en el canal.",
       "note_prev_video": "reels/2026-11-28-b-r3.mp4",
-      "lang": "es"
+      "lang": "es",
+      "story_id": "17999432468877719",
+      "yt_id": null
     },
     {
       "id": "2026-11-28-noche",
